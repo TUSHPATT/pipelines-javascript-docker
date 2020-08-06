@@ -4,9 +4,8 @@ metadata:
   name: tushpattpipelinesjavascriptdocker 
 spec:
   replicas: 1
-  template:
-    metadata:
-      labels:
+  selector:
+    matchLabels:
         app: tushpattpipelinesjavascriptdocker
     spec:
       containers:
