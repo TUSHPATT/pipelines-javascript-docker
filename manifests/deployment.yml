@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: tushpattpipelinesjavascriptdocker 
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: tushpattpipelinesjavascriptdocker 
+    spec:
+      containers:
+        - name: tushpattpipelinesjavascriptdocker 
+          image: mycontainerregistrytushar.azurecr.io/tushpattpipelinesjavascriptdocker
+          ports:
+          - containerPort: 8080
