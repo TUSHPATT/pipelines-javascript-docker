@@ -7,7 +7,7 @@ spec:
   template:
     metadata:
       labels:
-        app: tushpattpipelinesjavascriptdocker 
+        app: tushpattpipelinesjavascriptdocker
     spec:
       containers:
         - name: tushpattpipelinesjavascriptdocker 
