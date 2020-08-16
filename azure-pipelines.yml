@@ -53,7 +53,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'TUSHPATTpipelinesjavascriptdocker.com-test'
+    environment: 'TUSHPATTpipelinesjavascriptdocker'
     strategy:
       runOnce:
         deploy:
